@@ -68,20 +68,11 @@ colonist-cf candidates data/game_256800428.json --player Ushpuppy --event 318
 
 colonist-cf run scenarios/ushpuppy_port_choice.json --runs 1000
 colonist-cf run scenarios/ushpuppy_port_choice.json --runs 1000 --from-decision
-colonist-cf run scenarios/ushpuppy_port_choice.json --runs 1000 --from-decision --random-dice
 colonist-cf run scenarios/ushpuppy_port_choice.json --deck queue
 colonist-cf run scenarios/ushpuppy_port_choice.json --policy scripted
 colonist-cf oracle scenarios/ushpuppy_port_choice.json --seeds 10 --beam 80 --show-line
 colonist-cf trace scenarios/ushpuppy_port_choice.json --branch grain_port --seed 1
 ```
-
-Modes of `run`:
-
-- default: opponents replay their recorded moves until the record ends; recorded dice; then a full four-player game with random dice.
-- `--from-decision`: every player is simulated by the adaptive policy from the decision on; the dice are still the recorded ones until the record ends, random after.
-- `--from-decision --random-dice`: as above, with random dice from the decision.
-
-In every mode the development deck keeps the recorded order; only the cards never drawn in the real game are shuffled.
 
 `candidates` lists every legal settlement spot at a given event with the roads it needs, its production and its port, which is the quickest way to define new branches.
 
