@@ -1,0 +1,14 @@
+everyone adaptive from the decision; random dice from the decision; deck positional; hero adaptive, opponents adaptive; 1000 runs
+
+branch      hero wins  within record  mean win turn  winner share                                     
+----------  ---------  -------------  -------------  -------------------------------------------------
+wood_port   52.1%      32.6%          76.1           Ushpuppy 52.1% Blue 25.0% Black 15.7% Orange 7.2%
+grain_port  55.9%      37.1%          74.9           Ushpuppy 55.9% Blue 23.1% Black 14.1% Orange 6.9%
+
+paired seeds, grain_port vs wood_port: both win 37.0%, only grain_port 18.9%, only wood_port 15.1%, neither 29.0%
+
+wood_port: hero win turns t57:11 t61:30 t65:49 t69:66 t73:94 t77:76 t81:77 t85:57
+  trades per run: 2:1 grain x0.00, 2:1 lumber x2.40, 3:1 brick x0.13, 3:1 grain x1.19, 3:1 ore x0.23, 3:1 wool x1.17
+
+grain_port: hero win turns t57:16 t61:44 t65:61 t69:73 t73:85 t77:92 t81:83 t85:51
+  trades per run: 2:1 grain x2.46, 2:1 lumber x0.01, 3:1 brick x0.10, 3:1 lumber x0.96, 3:1 ore x0.47, 3:1 wool x0.52

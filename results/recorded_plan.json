@@ -1,0 +1,74 @@
+{
+  "runs": 500,
+  "deck": "positional",
+  "from_decision": false,
+  "branches": {
+    "wood_port": {
+      "hero_win": 0.0,
+      "hero_win_by_turn_77": 0.0,
+      "winners": {
+        "Black": 1.0
+      },
+      "hero_win_turns": {},
+      "mean_hero_win_turn": null,
+      "trade_usage_per_run": {
+        "2:1 lumber": 1.0
+      },
+      "mean_cards_produced": {
+        "lumber": 8.0,
+        "brick": 0.0,
+        "wool": 3.0,
+        "grain": 7.0,
+        "ore": 6.0
+      },
+      "mean_cards_lost": {
+        "lumber": 5.2,
+        "brick": 0.0,
+        "wool": 0.0,
+        "grain": 3.0,
+        "ore": 2.8
+      },
+      "consistency_notes": {
+        "Black dev draw changed by deck position": 500,
+        "Black counterfactual hand negative [2, 1, 0, 0, -1]": 100
+      }
+    },
+    "grain_port": {
+      "hero_win": 0.0,
+      "hero_win_by_turn_77": 0.0,
+      "winners": {
+        "Black": 1.0
+      },
+      "hero_win_turns": {},
+      "mean_hero_win_turn": null,
+      "trade_usage_per_run": {
+        "3:1 ore": 2.0
+      },
+      "mean_cards_produced": {
+        "lumber": 8.0,
+        "brick": 0.0,
+        "wool": 2.0,
+        "grain": 7.0,
+        "ore": 8.0
+      },
+      "mean_cards_lost": {
+        "lumber": 7.53,
+        "brick": 0.0,
+        "wool": 0.0,
+        "grain": 2.47,
+        "ore": 0.0
+      },
+      "consistency_notes": {
+        "Black dev draw changed by deck position": 500,
+        "Black counterfactual hand negative [2, 1, 0, 1, -1]": 235,
+        "Black counterfactual hand negative [3, 1, 0, 0, -1]": 265
+      }
+    }
+  },
+  "grain_port_vs_wood_port": {
+    "both_win": 0.0,
+    "only_b_wins": 0.0,
+    "only_a_wins": 0.0,
+    "neither": 1.0
+  }
+}

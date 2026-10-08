@@ -1,0 +1,81 @@
+clairvoyant planner within the record, deck positional, beam 80, 10 seeds
+branch      wins by turn 77  earliest  win turns  best VP
+----------  ---------------  --------  ---------  -------
+wood_port   100%             77        t77:10     10     
+grain_port  100%             69        t69:10     10     
+
+wood_port (seed 1):
+  t45: road (8, 9)
+  t45: settlement 9 [wool 10, lumber 2:1 port]
+  t45: end of turn: 6 VP, hand GG, dev [victory_point]
+  t47: Blue stole grain
+  t48: Orange stole grain
+  t49: end of turn: 6 VP, hand -, dev [victory_point]
+  t51: roll 8: +LL
+  t53: end of turn: 6 VP, hand LL, dev [victory_point]
+  t55: roll 5: +G
+  t57: end of turn: 6 VP, hand LLG, dev [victory_point]
+  t61: roll 3: +OOO
+  t61: trade 2xlumber -> wool
+  t61: bought victory_point
+  t61: end of turn: 7 VP, hand OO, dev [victory_point,victory_point]
+  t62: Black stole ore
+  t62: roll 10: +WWW
+  t63: roll 8: +LLGG
+  t64: Orange monopoly took 1 ore
+  t65: roll 3: +OOO
+  t65: bought monopoly
+  t65: end of turn: 7 VP, hand LLWWGOO, dev [victory_point,victory_point,monopoly]
+  t66: roll 8: +LLGG
+  t67: roll 8: +LLGG
+  t67: Blue draws road_building instead of knight
+  t68: discarded LLLLWWG
+  t69: monopoly ore +7
+  t69: city 35
+  t69: city 37
+  t69: end of turn: 9 VP, hand LLOOO, dev [victory_point,victory_point]
+  t70: Black stole ore
+  t70: Black draws knight instead of road_building
+  t72: Orange stole lumber
+  t73: stole lumber from Black
+  t73: end of turn: 9 VP, hand LLOO, dev [victory_point,victory_point]
+  t74: roll 5: +GG
+  t77: roll 8: +LLGGGG
+  t77: trade 2xlumber -> ore
+  t77: city 9
+  t77: end of turn: 10 VP, hand LLGGGG, dev [victory_point,victory_point]
+  t77: reaches 10 VP
+
+grain_port (seed 1):
+  t45: road (34, 39)
+  t45: settlement 39 [ore 3, grain 2:1 port]
+  t45: end of turn: 6 VP, hand GG, dev [victory_point]
+  t47: Blue stole grain
+  t48: Orange stole grain
+  t49: end of turn: 6 VP, hand -, dev [victory_point]
+  t51: roll 8: +LL
+  t53: end of turn: 6 VP, hand LL, dev [victory_point]
+  t55: roll 5: +G
+  t57: end of turn: 6 VP, hand LLG, dev [victory_point]
+  t61: roll 3: +OOOO
+  t61: trade 3xore -> wool
+  t61: bought victory_point
+  t61: end of turn: 7 VP, hand LL, dev [victory_point,victory_point]
+  t62: Black stole lumber
+  t62: roll 10: +WW
+  t63: roll 8: +LLGG
+  t65: roll 3: +OOOO
+  t65: city 37
+  t65: trade 3xlumber -> grain
+  t65: bought monopoly
+  t65: end of turn: 8 VP, hand W, dev [victory_point,victory_point,monopoly]
+  t66: roll 8: +LLGGG
+  t67: roll 8: +LLGGG
+  t67: Blue draws road_building instead of knight
+  t68: discarded LLLLW
+  t69: monopoly ore +5
+  t69: city 35
+  t69: trade 2xgrain -> ore
+  t69: city 39
+  t69: end of turn: 10 VP, hand -, dev [victory_point,victory_point]
+  t69: reaches 10 VP

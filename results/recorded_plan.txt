@@ -1,0 +1,19 @@
+recorded dice to turn 77, random after; deck positional; hero scripted, opponents adaptive; 500 runs
+
+branch      hero wins  within record  mean win turn  winner share
+----------  ---------  -------------  -------------  ------------
+wood_port   0.0%       0.0%           -              Black 100.0%
+grain_port  0.0%       0.0%           -              Black 100.0%
+
+paired seeds, grain_port vs wood_port: both win 0.0%, only grain_port 0.0%, only wood_port 0.0%, neither 100.0%
+
+wood_port: hero win turns -
+  trades per run: 2:1 lumber x1.00
+  note in 100% of runs: Black dev draw changed by deck position
+  note in 20% of runs: Black counterfactual hand negative [2, 1, 0, 0, -1]
+
+grain_port: hero win turns -
+  trades per run: 3:1 ore x2.00
+  note in 100% of runs: Black dev draw changed by deck position
+  note in 53% of runs: Black counterfactual hand negative [3, 1, 0, 0, -1]
+  note in 47% of runs: Black counterfactual hand negative [2, 1, 0, 1, -1]

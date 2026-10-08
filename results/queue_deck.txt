@@ -1,0 +1,16 @@
+recorded dice to turn 77, random after; deck queue; hero adaptive, opponents adaptive; 500 runs
+
+branch      hero wins  within record  mean win turn  winner share   
+----------  ---------  -------------  -------------  ---------------
+wood_port   100.0%     100.0%         73.5           Ushpuppy 100.0%
+grain_port  100.0%     100.0%         77.0           Ushpuppy 100.0%
+
+paired seeds, grain_port vs wood_port: both win 100.0%, only grain_port 0.0%, only wood_port 0.0%, neither 0.0%
+
+wood_port: hero win turns t73:432 t77:68
+  trades per run: 2:1 lumber x2.96, 3:1 grain x0.14
+
+grain_port: hero win turns t77:500
+  trades per run: 2:1 grain x2.00, 3:1 lumber x1.65, 3:1 ore x1.00
+  note in 35% of runs: Black counterfactual hand negative [2, 1, 0, 1, -1]
+  note in 35% of runs: Black counterfactual hand negative [3, 1, 0, 0, -1]

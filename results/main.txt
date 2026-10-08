@@ -1,0 +1,22 @@
+opponents follow the record; recorded dice to turn 77, random after; deck positional; hero adaptive, opponents adaptive; 1000 runs
+
+branch      hero wins  within record  mean win turn  winner share                         
+----------  ---------  -------------  -------------  -------------------------------------
+wood_port   12.3%      12.1%          77.1           Black 49.4% Blue 38.3% Ushpuppy 12.3%
+grain_port  100.0%     100.0%         77.0           Ushpuppy 100.0%                      
+
+paired seeds, grain_port vs wood_port: both win 12.3%, only grain_port 87.7%, only wood_port 0.0%, neither 0.0%
+
+wood_port: hero win turns t77:121 t81:2
+  trades per run: 2:1 lumber x4.10, 3:1 grain x0.83, 3:1 wool x0.00
+  note in 100% of runs: hero knight moves the robber off the recorded tile; opponents' production is not re-simulated
+  note in 100% of runs: Blue dev draw changed by deck position
+  note in 100% of runs: Blue plays knight not held after deck shift
+  note in 50% of runs: Black counterfactual hand negative [1, 1, -1, 1, 1]
+
+grain_port: hero win turns t77:1000
+  trades per run: 2:1 grain x2.08, 3:1 lumber x1.60, 3:1 ore x1.00
+  note in 100% of runs: hero knight moves the robber off the recorded tile; opponents' production is not re-simulated
+  note in 100% of runs: Blue dev draw changed by deck position
+  note in 100% of runs: Blue plays knight not held after deck shift
+  note in 34% of runs: Black counterfactual hand negative [2, 1, 0, 1, -1]

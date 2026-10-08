@@ -1,0 +1,15 @@
+{
+  "replay": "../data/game_256800428.json",
+  "hero": "Ushpuppy",
+  "decision": {"start": 318, "end": 320},
+  "branches": {
+    "wood_port": {"roads": [[8, 9]], "settlement": 9},
+    "grain_port": {"roads": [[34, 39]], "settlement": 39}
+  },
+  "policy": {"name": "adaptive", "monopoly_threshold": 5, "max_new_roads": 2},
+  "opponent_policy": {"name": "adaptive"},
+  "deck": {"mode": "positional", "known_order": null},
+  "continue_turns": 160,
+  "runs": 1000,
+  "seed": 1
+}

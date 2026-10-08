@@ -1,0 +1,5 @@
+clairvoyant planner within the record, deck queue, beam 80, 10 seeds
+branch      wins by turn 77  earliest  win turns  best VP
+----------  ---------------  --------  ---------  -------
+wood_port   100%             69        t69:10     10     
+grain_port  100%             69        t69:10     10     

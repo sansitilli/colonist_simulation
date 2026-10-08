@@ -1,0 +1,94 @@
+{
+  "runs": 1000,
+  "deck": "positional",
+  "from_decision": false,
+  "random_dice": false,
+  "branches": {
+    "wood_port": {
+      "hero_win": 0.123,
+      "hero_win_by_turn_77": 0.121,
+      "winners": {
+        "Black": 0.494,
+        "Blue": 0.383,
+        "Ushpuppy": 0.123
+      },
+      "hero_win_turns": {
+        "77": 121,
+        "81": 2
+      },
+      "mean_hero_win_turn": 77.0650406504065,
+      "trade_usage_per_run": {
+        "2:1 lumber": 4.102,
+        "3:1 grain": 0.828,
+        "3:1 wool": 0.003
+      },
+      "mean_cards_produced": {
+        "lumber": 10.53,
+        "brick": 0.0,
+        "wool": 3.35,
+        "grain": 18.92,
+        "ore": 7.26
+      },
+      "mean_cards_lost": {
+        "lumber": 2.15,
+        "brick": 0.0,
+        "wool": 1.24,
+        "grain": 8.11,
+        "ore": 0.0
+      },
+      "consistency_notes": {
+        "hero knight moves the robber off the recorded tile; opponents' production is not re-simulated": 1000,
+        "Black counterfactual hand negative [1, 1, -1, 1, 1]": 499,
+        "Blue dev draw changed by deck position": 1000,
+        "Blue plays knight not held after deck shift": 1000,
+        "Black dev draw changed by deck position": 137,
+        "Black plays road_building not held after deck shift": 137,
+        "Black counterfactual hand negative [-1, 1, 0, 1, 1]": 63,
+        "Black counterfactual hand negative [0, -1, 2, 3, 1]": 121
+      }
+    },
+    "grain_port": {
+      "hero_win": 1.0,
+      "hero_win_by_turn_77": 1.0,
+      "winners": {
+        "Ushpuppy": 1.0
+      },
+      "hero_win_turns": {
+        "77": 1000
+      },
+      "mean_hero_win_turn": 77.0,
+      "trade_usage_per_run": {
+        "2:1 grain": 2.076,
+        "3:1 lumber": 1.603,
+        "3:1 ore": 1.0
+      },
+      "mean_cards_produced": {
+        "lumber": 10.0,
+        "brick": 0.0,
+        "wool": 2.0,
+        "grain": 15.0,
+        "ore": 8.0
+      },
+      "mean_cards_lost": {
+        "lumber": 4.68,
+        "brick": 0.0,
+        "wool": 0.0,
+        "grain": 4.64,
+        "ore": 0.68
+      },
+      "consistency_notes": {
+        "hero knight moves the robber off the recorded tile; opponents' production is not re-simulated": 1000,
+        "Blue dev draw changed by deck position": 1000,
+        "Blue plays knight not held after deck shift": 1000,
+        "Black counterfactual hand negative [2, 1, 0, 1, -1]": 340,
+        "Black counterfactual hand negative [3, 1, 0, 0, -1]": 336
+      }
+    }
+  },
+  "grain_port_vs_wood_port": {
+    "both_win": 0.123,
+    "only_b_wins": 0.877,
+    "only_a_wins": 0.0,
+    "neither": 0.0
+  }
+}
